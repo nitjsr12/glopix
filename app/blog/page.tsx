@@ -137,12 +137,11 @@ export default function BlogPage() {
             >
               <X className="w-6 h-6" />
             </button>
-            <img src={selectedImage} alt="Full View" className="w-300 h-auto rounded-lg shadow-lg" />
+            <img src={selectedImage} alt="Full View" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
         </div>
       )}
     </section>
-
       {/* News Categories */}
       <section className="py-16 px-4 md:px-8 bg-gray-900">
         <div className="max-w-6xl mx-auto">
