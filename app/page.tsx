@@ -13,7 +13,7 @@ export default function Home() {
       {/* About Section */}
       <section className="py-16 px-4 md:px-8 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
-          <img src="/about-image.jpg" alt="About Glopixs" className="w-full rounded-lg shadow-lg" />
+          <img src="/images/about.jpg" alt="About Glopixs" className="w-full rounded-lg shadow-lg" />
         </div>
         <div className="md:w-1/2 text-center md:text-left md:pl-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
@@ -40,7 +40,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-center">
-            <Image src="/vision-image.jpg" alt="Our Vision" width={500} height={500} className="rounded-lg shadow-lg" />
+            <Image src="/images/vision.jpg" alt="Our Vision" width={500} height={500} className="rounded-lg shadow-lg" />
           </div>
         </div>
       </section>
